@@ -1,0 +1,53 @@
+*{
+    font-weight: 500 !important;
+}
+body{
+    background: url(../img/admin-bg2.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.side-nav{
+    background: #120808 !important;
+    width:250px;
+    height: calc(100% - 50px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    position:fixed;
+    top:50px;
+    left:0px;
+}
+.side-nav .list-group{
+    border-radius: none !important;
+}
+.side-nav .list-group a{
+    border-radius:0px !important;
+    border: none;
+    background: #120808 !important;
+    border-bottom:2px solid white;
+    color:white !important;
+    font-weight: 900 !important;
+   
+}
+.side-nav .list-group:last-child{
+    border-bottom:none;
+}
+.side-nav .list-group a:hover{
+    background:rgba(242, 242, 242,.5) !important;
+}
+
+.side-nav .list-group .side-nav-active{
+    border-left:10px solid white;
+}
+
+.body-content{
+    width: calc(100% - 250px);
+    
+    height:100%;
+    margin-left: 250px;
+    
+}
+.calendar-div{
+    width:100%;
+    height:500px;
+}
